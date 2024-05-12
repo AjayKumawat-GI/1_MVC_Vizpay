@@ -63,3 +63,11 @@ body {
   white-space: nowrap;
   line-height: 60px;
 }
+
+@media screen and (max-width: 767px) {
+    .polygon-container {
+        display: none;
+    }
+}
+
+
