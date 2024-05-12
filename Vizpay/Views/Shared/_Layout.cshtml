@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Vizpay</title>
 
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your website description here.">
+    <meta name="keywords" content="keywords, for, SEO, here">
+
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link href="~/staticfiles/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="~/staticfiles/font-awesome/css/all.min.css" rel="stylesheet" />
+    <link href="~/staticfiles/css/index.css" rel="stylesheet" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;600;700&display=swap" />
 </head>
 <body>
     <header>
@@ -34,11 +53,11 @@
         @RenderBody()
     </div>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <!--<script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>-->
 
-    @await RenderSectionAsync("Scripts", required: false)
+    <!--@await RenderSectionAsync("Scripts", required: false)-->
 </body>
 </html>
