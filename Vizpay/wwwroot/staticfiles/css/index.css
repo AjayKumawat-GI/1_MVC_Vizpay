@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
 }
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
 /* Set the root font size to 10px */
 html {
   font-size: 62.5%; /* 62.5% of the default font size (16px) = 10px */
@@ -653,5 +658,5 @@ h5 {
 .exhibition-left-polygon {
   position:absolute;
   left: -5rem;
-  bottom: -262rem;
+  bottom: 137rem;
 }
