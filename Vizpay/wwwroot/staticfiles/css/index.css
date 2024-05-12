@@ -41,6 +41,11 @@ i:active
 
 .nav-link-items{
   font-size: 1.4rem;
+  font-weight: 500;
+}
+
+nav-link {
+    color: #333;
 }
 
 .nav-link-item{
@@ -659,4 +664,16 @@ h5 {
   position:absolute;
   left: -5rem;
   bottom: 137rem;
+}
+
+.products-left-polygon {
+    position: absolute;
+    top: 90rem;
+    left: -7rem;
+}
+
+.products-right-polygon {
+    position: absolute;
+    top: 100rem;
+    right: -8.5rem;
 }
