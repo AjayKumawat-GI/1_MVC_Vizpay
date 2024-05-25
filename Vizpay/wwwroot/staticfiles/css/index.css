@@ -39,9 +39,15 @@ i:active
   max-height: 4.5rem;
 }
 
-.nav-link-items{
-  font-size: 1.4rem;
-  font-weight: 500;
+#custom-navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1020 !important;
+}
+
+.nav-link-items {
+    font-size: 1.4rem;
+    font-weight: 500;
 }
 
 nav-link {
