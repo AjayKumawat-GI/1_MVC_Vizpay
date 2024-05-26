@@ -602,11 +602,16 @@ h5 {
 }
 
 /* FOOTER */
-.footer-container,
-.footer-container-2 {
+.footer-container {
   width: 90%;
   margin: 0 auto;
   padding-bottom: 5rem;
+}
+
+.footer-container-2 {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 0rem;
 }
 
 .f-copyright {
@@ -958,5 +963,9 @@ h5 {
     .business-card {
         margin: 0 auto;
         margin-top: 4rem;
+    }
+
+    .p-card-title-desc {
+        margin-bottom: 2rem;
     }
 }
