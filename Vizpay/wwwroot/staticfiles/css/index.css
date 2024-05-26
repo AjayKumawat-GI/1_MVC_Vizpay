@@ -925,4 +925,7 @@ h5 {
             .custom-column .image-wrapper:not(:last-child) {
                 margin-bottom: 20px;
             }
+    .b-count-container {
+        margin: 10rem 0 0rem 0 !important;
+    }
 }
