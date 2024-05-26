@@ -872,6 +872,7 @@ h5 {
 
 .col-2 .image-wrapper:first-child {
     flex: 3;
+    margin: 2rem 0;
 }
 
 .col-2 .image-wrapper:last-child {
@@ -880,6 +881,11 @@ h5 {
 
 .col-3 .image-wrapper {
     flex: 1;
+}
+
+.col-3 .image-wrapper:first-child {
+    flex: 1;
+    margin: 2rem 0;
 }
 
 .custom-column .image-wrapper:not(:last-child) {
@@ -906,7 +912,7 @@ h5 {
     }
 
         .custom-column .image-wrapper {
-            width: 90%;
+            width: 100%;
             height: auto;
         }
 
