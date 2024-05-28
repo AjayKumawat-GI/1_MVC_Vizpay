@@ -964,4 +964,7 @@ h5 {
     .p-card-title-desc {
         margin-bottom: 2rem;
     }
+    .col-md-6.col-sm-12.custom-column {
+        margin: 10px 0px;
+    }
 }
